@@ -1,5 +1,4 @@
 /*** 
-
 BMI Calculator and Health Category
 
 Create a JavaScript program that calculates the Body Mass Index (BMI) and assigns a health category based on the BMI value. Use nested if-else statements to determine the health category.
