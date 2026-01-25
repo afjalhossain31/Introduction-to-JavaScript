@@ -10,3 +10,12 @@ console.log(number.length);
 console.log(fruits.length);
 console.log(number);
 console.log(fruits);
+
+//Get by index
+const scores = [50, 60, 70];
+
+const first = scores[0]; 
+const second = scores[1];
+const third = scores[2];
+
+console.log(first, second, third);
