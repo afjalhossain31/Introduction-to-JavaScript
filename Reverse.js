@@ -22,3 +22,15 @@ for(let i=0; i<number.length; i++){
     reversed_number.unshift(num);
 }
 console.log(reversed_number);
+
+// reverse side 
+const numbers= [100, 200, 300, 400, 500];
+const rev_numbers=[]; //empty array and push kore dibo 
+
+for (let i= numbers.length -1 ; i>=0; i--){
+    const num=numbers[i];
+    console.log(num);
+    rev_numbers.push(num);
+
+}
+console.log(rev_numbers);
