@@ -50,3 +50,46 @@ const myAge =24;
 const yourAge =30;
 
 difference(yourAge, myAge);
+
+// Function return and set retrun value to a variables
+
+function TenTime(number1){
+    const result = number1 * 10;
+    return result;
+}
+
+function cutHalf(number2){
+    const half = number2 / 2;
+    return half;
+}
+
+//create variables to store the return values / create objects
+const first = TenTime(15);
+console.log(first);
+const second = cutHalf(50);
+console.log(second);
+console.log('----------------------');
+
+
+
+// Odd and Even
+function isEven(number){
+    if(number % 2 === 0){
+        return true;
+    }
+    return false;
+}
+
+console.log(isEven(110));
+console.log(isEven(67));
+
+// Odd number
+function isOdd(number){
+    if(number % 2 !== 0){
+        return true;
+    }
+    return false;
+}
+console.log('----------------------');
+console.log(isOdd(10));
+console.log(isOdd(7));
