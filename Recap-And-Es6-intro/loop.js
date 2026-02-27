@@ -4,7 +4,7 @@ const numbers = [1, 2, 3, 4, 5];
 //     console.log(number);
 // }
 
-const employee = { 
+const employee = {
     name: 'John Doe', 
     1: 'desk one',  
     'home-address': '123 Main St',
