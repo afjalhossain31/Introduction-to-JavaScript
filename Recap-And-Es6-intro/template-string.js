@@ -1,3 +1,5 @@
+// it is using multiple line strings and Dynamic string with the help of ${} and it is using backticks `` instead of single or double quotes
+
 const firstName = 'Afjal ';
 const lastName = "Hosssain";
 
@@ -12,7 +14,7 @@ console.log(giveMe);
 const fullName = firstName + ' ' + lastName;
 const fullName2 = `${firstName} ${lastName}`;
 
-// begtics --> ``
+// backtick --> ``
 
 function getCardHTML(name, description, price) {
     const div = `
