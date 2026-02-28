@@ -13,12 +13,12 @@ function deductLifeCounter(studentName) {
   };
 }
 
-const rifatAlvi = deductLifeCounter("Rifat Alvi");
-const najiba = deductLifeCounter("Najiba");
+const afjalhossain = deductLifeCounter("Afjal Hossain");
+const toshi = deductLifeCounter("Najiba");
 
-rifatAlvi();
-najiba();
-rifatAlvi();
-rifatAlvi();
-rifatAlvi();
-najiba();
+afjalhossain();
+toshi();
+afjalhossain();
+afjalhossain();
+afjalhossain();
+toshi();
